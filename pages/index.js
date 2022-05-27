@@ -9,6 +9,8 @@ import TipButton from "../components/tipButton"
 import getKeyboardsContract from "../utils/getKeyboardContract";
 import { toast } from "react-hot-toast";
 
+const { ethereum, connectedAccount, connectAccount } = useMetaMaskAccount();
+
 
 export default function Home() {
 
